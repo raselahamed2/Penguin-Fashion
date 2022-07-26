@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin Fashion</title>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/efe6546d1e.js" crossorigin="anonymous"></script>
+    <!-- tailwind link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              penguin: "#FFFBF0",
+              jacketprice: "#FABE4C",
+              fitcolor: " #E5E5E5"
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Banner section -->
+    <header class="bg-penguin pb-32 pt-12">
+      <section class="container mx-auto sm:flex items-center justify-around">
+           <div class="space-y-4">
+            <h1 class="text-2xl sm:text-6xl uppercase font-bold">
+                <span class="text-yellow-400">Be the penguin</span>
+                <br />
+                <span>Of Winter</span>
+              </h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing <br />
+                and typesetting industry.
+              </p>
+              <button class="uppercase bg-[#A4BC46] px-5 py-4 rounded-2xl text-white font-semibold"><i class="fa-solid fa-cart-plus px-2"></i>Buy Now</button>
+           </div>
+           <div class="pt-8 sm:pt-0">
+            <img class="w-10/12 sm:w-full" src="images/model.png" alt="">
+           </div>
+      </section>
+    </header>
+    <!-- main content  -->
+    <main class="container mx-auto">
+       <!-- start Woman jacket -->
+       <section>
+        <h1 class="text-5xl ml-10 mt-20 mb-14">WOMAN JACKET</h1>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+            <!-- jacket 1 -->
+            <div class="p-4 shadow-lg rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-1.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Yellow Coat jacket</h3>
+                <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem aliquid commodi expedita vitae incidunt repellat?</p>
+                <div class="flex justify-between">
+                    <h2 class="text-3xl font-semibold text-jacketprice">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] px-5 py-4 rounded-2xl text-white font-semibold"><i class="fa-solid fa-cart-plus px-2"></i>Buy Now</button>
+                </div>
+            </div>
+            <!-- jacket 2 -->
+            <div class="p-4 shadow-lg rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-2.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Ladies Jacket </h3>
+                <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem aliquid commodi expedita vitae incidunt repellat?</p>
+                <div class="flex justify-between">
+                    <h2 class="text-3xl font-semibold text-jacketprice">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] px-5 py-4 rounded-2xl text-white font-semibold"><i class="fa-solid fa-cart-plus px-2"></i>Buy Now</button>
+                </div>
+            </div>
+            <!-- jacket 3 -->
+            <div class="p-4 shadow-lg rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-3.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Woman Leather Jacket </h3>
+                <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem aliquid commodi expedita vitae incidunt repellat?</p>
+                <div class="flex justify-between">
+                    <h2 class="text-3xl font-semibold text-jacketprice">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] px-5 py-4 rounded-2xl text-white font-semibold"><i class="fa-solid fa-cart-plus px-2"></i>Buy Now</button>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!-- Woman jacket end -->
+
+       <!-- Man jacket start  -->
+       <section>
+        <h1 class="text-5xl ml-10 mt-24 mb-14">MAN JACKET</h1>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+            <!-- jacket 1 -->
+            <div class="p-4 shadow-lg rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-4.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+                <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem aliquid commodi expedita vitae incidunt repellat?</p>
+                <div class="flex justify-between">
+                    <h2 class="text-3xl font-semibold text-jacketprice">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] px-5 py-4 rounded-2xl text-white font-semibold"><i class="fa-solid fa-cart-plus px-2"></i>Buy Now</button>
+                </div>
+            </div>
+            <!-- jacket 2 -->
+            <div class="p-4 shadow-lg rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-5.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Man Leather Jackets</h3>
+                <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem aliquid commodi expedita vitae incidunt repellat?</p>
+                <div class="flex justify-between">
+                    <h2 class="text-3xl font-semibold text-jacketprice">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] px-5 py-4 rounded-2xl text-white font-semibold"><i class="fa-solid fa-cart-plus px-2"></i>Buy Now</button>
+                </div>
+            </div>
+            <!-- jacket 3 -->
+            <div class="p-4 shadow-lg rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/jacket-6.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Man Casual Jackets</h3>
+                <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem aliquid commodi expedita vitae incidunt repellat?</p>
+                <div class="flex justify-between">
+                    <h2 class="text-3xl font-semibold text-jacketprice">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] px-5 py-4 rounded-2xl text-white font-semibold"><i class="fa-solid fa-cart-plus px-2"></i>Buy Now</button>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!-- Man jacket end  -->
+    </main>
+  </body>
+</html>
